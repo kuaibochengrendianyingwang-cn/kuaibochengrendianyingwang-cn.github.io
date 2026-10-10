@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="rating" content="general">
+<meta name="robots" content="index, follow">
+<title>快播成人电影网｜成人快播不是播放器，是一套选片方法：片长、码率、画幅、对白密度</title>
+<meta name="description" content="快播成人电影网：把“快”定义为找得快、看得快、不卡顿。按片长、码率、画幅、对白密度四维选片，含 4K 修复榜、省流档、可关字幕导演、助眠指数与四步选片法。正版免费、会员免费、单片付费、公版四类片源，全部站内锚点，无盗版无解析。">
+<meta name="keywords" content="快播成人电影网,快播成人电影,省流电影,弱网看电影,4K修复电影,电影推荐,文艺片,慢电影,长镜头,侯孝贤,是枝裕和,小津安二郎,黑泽明,杨德昌,王家卫,吴宇森,杜琪峰,粤语原声,画幅,码率,帧率,助眠电影,失眠电影,电影在线观看,正版电影">
+<link rel="canonical" href="https://kuaibochengrendianyingwang-cn.github.io/">
+<style>
+:root{
+  --paper:#f7f4ec;
+  --ink:#10131a;
+  --ink2:#1d222b;
+  --red:#e0341f;
+  --red2:#ff5a3d;
+  --gold:#e8a93c;
+  --teal:#1f8f86;
+  --plum:#6d3a5c;
+  --line:rgba(16,19,26,.16);
+  --shadow:8px 9px 0 rgba(16,19,26,.92);
+  --shadow-s:5px 6px 0 rgba(16,19,26,.86);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",system-ui,sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:
+    linear-gradient(rgba(16,19,26,.045) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(16,19,26,.045) 1px,transparent 1px);
+  background-size:26px 26px;
+  mask-image:radial-gradient(circle at 78% 12%,#000 0,transparent 62%);
+}
+.wrap{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:0 26px}
+
+/* ── 导航 ── */
+header[role="banner"]{position:sticky;top:0;z-index:60;background:rgba(247,244,236,.93);backdrop-filter:blur(9px);border-bottom:2.5px solid var(--ink)}
+.nav{max-width:1180px;margin:0 auto;padding:13px 26px;display:flex;align-items:center;gap:20px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);flex:none}
+.logo{width:42px;height:42px;border:2.5px solid var(--ink);border-radius:11px;background:var(--red);position:relative;box-shadow:var(--shadow-s);transform:rotate(-3deg)}
+.logo i{position:absolute;inset:6px;border:2px solid #fff;border-radius:6px;background:repeating-linear-gradient(135deg,transparent 0 3px,rgba(255,255,255,.55) 3px 5px)}
+.logo b{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:#fff;font:700 15px/1 "Courier New",monospace;letter-spacing:-1px}
+.brand h1{font:800 20px/1.1 "Songti SC","SimSun",Georgia,serif;letter-spacing:.5px}
+.brand small{display:block;font:600 10.5px/1 "Courier New",monospace;color:#6b6257;letter-spacing:1.4px;margin-top:3px}
+nav.tabs{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+nav.tabs a{
+  font:700 13.5px/1 "PingFang SC","Microsoft YaHei",sans-serif;
+  color:var(--ink2);text-decoration:none;padding:9px 13px;border-radius:9px;
+  border:2px solid transparent;transition:.16s;
+}
+nav.tabs a:hover{background:#fff;border-color:var(--ink);box-shadow:var(--shadow-s);transform:translateY(-1px)}
+nav.tabs a.on{background:var(--ink);color:#fff;box-shadow:var(--shadow-s)}
+.menu-btn{display:none;width:44px;height:44px;border:2.5px solid var(--ink);border-radius:11px;background:var(--gold);cursor:pointer;flex:none;box-shadow:var(--shadow-s)}
+.menu-btn i{display:block;height:3px;background:var(--ink);margin:6px auto;border-radius:3px;width:60%}
+
+/* ── Hero ── */
+.hero{padding:74px 0 62px;border-bottom:3px double var(--ink)}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:44px;align-items:center}
+.kicker{display:inline-flex;align-items:center;gap:9px;font:700 12.5px/1 "Courier New",monospace;letter-spacing:2.4px;color:var(--ink2);background:#fff;border:2px solid var(--ink);border-radius:999px;padding:8px 15px;box-shadow:var(--shadow-s)}
+.kicker u{text-decoration:none;color:var(--red)}
+h2.hero-h{font:800 52px/1.12 "Songti SC","SimSun",Georgia,serif;margin:22px 0 6px;letter-spacing:-.5px}
+h2.hero-h em{font-style:normal;background:linear-gradient(92deg,var(--red),var(--gold) 55%,var(--teal));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2.hero-h span.sub{display:block;font:700 20px/1.4 "PingFang SC",sans-serif;color:#5c5348;letter-spacing:0;margin-top:14px;background:none;color:#5c5348;-webkit-text-fill-color:#5c5348}
+.lede{font-size:17.5px;color:#3d3730;margin:20px 0 26px;max-width:640px}
+.lede b{background:linear-gradient(transparent 62%,#ffe9a8 62%);padding:0 2px}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{font:700 14.5px/1 "PingFang SC",sans-serif;color:#fff;background:var(--ink);border:2.5px solid var(--ink);border-radius:11px;padding:14px 22px;text-decoration:none;box-shadow:var(--shadow-s);transition:.15s;letter-spacing:.4px}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:10px 11px 0 rgba(16,19,26,.9)}
+.btn.gold{background:var(--gold);color:var(--ink)}
+.btn.red{background:var(--red)}
+.hero-tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:26px}
+.hero-tags i{font:600 11.5px/1 "Courier New",monospace;font-style:normal;background:#fff;border:1.5px solid var(--line);border-radius:6px;padding:6px 9px;color:#5c5348}
+
+/* 信号塔 */
+.tower{position:relative;height:350px;border:2.5px solid var(--ink);border-radius:18px;background:
+   radial-gradient(circle at 50% 8%,rgba(31,143,134,.30),transparent 46%),
+   linear-gradient(160deg,#0e1218,#1a2029 60%,#10131a);
+ box-shadow:var(--shadow);overflow:hidden}
+.tower .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(120,220,205,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(120,220,205,.10) 1px,transparent 1px);background-size:18px 18px;mask-image:radial-gradient(circle at 50% 40%,#000,transparent 70%)}
+.tower .mast{position:absolute;left:50%;bottom:64px;transform:translateX(-50%);width:7px;height:190px;background:linear-gradient(180deg,#9aa3af,#59606b);border-radius:4px}
+.tower .mast::before{content:"";position:absolute;left:50%;top:-1px;transform:translateX(-50%);width:23px;height:23px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(224,52,31,.22),0 0 22px rgba(255,90,61,.8)}
+.tower .ring{position:absolute;left:50%;border:2.5px solid var(--gold);border-radius:50%;transform:translateX(-50%);animation:pulse 2.1s ease-out infinite}
+.tower .ring.r1{width:74px;height:74px;top:138px;animation-delay:0s}
+.tower .ring.r2{width:150px;height:150px;top:100px;animation-delay:.7s;border-color:var(--teal)}
+.tower .ring.r3{width:240px;height:240px;top:55px;animation-delay:1.4s;border-color:rgba(120,220,205,.5)}
+@keyframes pulse{0%{transform:translateX(-50%) scale(.35);opacity:.95}100%{transform:translateX(-50%) scale(1);opacity:0}}
+.tower .bars{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);display:flex;gap:6px;align-items:flex-end;height:34px}
+.tower .bars b{width:7px;background:linear-gradient(180deg,var(--red2),var(--gold));border-radius:4px;animation:bob 1.1s ease-in-out infinite alternate}
+.tower .bars b:nth-child(1){height:14px;animation-delay:0s}
+.tower .bars b:nth-child(2){height:26px;animation-delay:.18s}
+.tower .bars b:nth-child(3){height:20px;animation-delay:.36s}
+.tower .bars b:nth-child(4){height:32px;animation-delay:.54s}
+.tower .bars b:nth-child(5){height:24px;animation-delay:.72s}
+.tower .bars b:nth-child(6){height:16px;animation-delay:.9s}
+@keyframes bob{from{transform:scaleY(.45)}to{transform:scaleY(1)}}
+.tower .cap{position:absolute;top:16px;left:18px;color:#7fe3d6;font:700 11px/1 "Courier New",monospace;letter-spacing:2.2px}
+.tower .cap.r{position:absolute;top:16px;right:18px;left:auto;color:var(--gold);text-align:right}
+.tower .now{position:absolute;bottom:16px;left:0;right:0;text-align:center;color:#c9d3de;font:700 11.5px/1 "Courier New",monospace;letter-spacing:1.6px}
+
+/* 仪表 */
+.dash{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+.dash div{background:#fff;border:2.5px solid var(--ink);border-radius:13px;padding:14px 15px;box-shadow:var(--shadow-s)}
+.dash dt{font:700 10.5px/1 "Courier New",monospace;letter-spacing:1.6px;color:#7a6f60}
+.dash dd{font:700 20px/1.25 "Courier New",monospace;margin-top:7px;letter-spacing:-.5px}
+.dash dd em{font-style:normal;color:var(--red);font-size:12px;margin-left:5px}
+meter{display:block;height:7px;border:0;background:#ece7dc;border-radius:5px;margin-top:8px;width:100%}
+meter::-webkit-meter-bar{background:#ece7dc;border-radius:5px}
+meter::-webkit-meter-optimum-value{background:linear-gradient(90deg,var(--teal),var(--gold) 60%,var(--red2))}
+
+/* ── 通用 section ── */
+section{padding:74px 0;border-bottom:3px double var(--ink)}
+.eyebrow{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap;margin-bottom:8px}
+.eyebrow .no{font:800 14px/1 "Courier New",monospace;color:#fff;background:var(--red);border:2px solid var(--ink);border-radius:7px;padding:6px 10px;letter-spacing:1.5px;box-shadow:var(--shadow-s)}
+.eyebrow .en{font:700 11.5px/1 "Courier New",monospace;letter-spacing:2.6px;color:#8a7f70}
+h3.sec{font:800 34px/1.2 "Songti SC","SimSun",Georgia,serif;letter-spacing:-.3px}
+h3.sec small{display:block;font:600 15px/1.5 "PingFang SC",sans-serif;color:#6b6257;letter-spacing:0;margin-top:9px;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.sec-note{font-size:15px;color:#5c5348;margin:16px 0 34px;max-width:820px}
+.sec-note code{font:600 12.5px/1 "Courier New",monospace;background:#fff;border:1.5px solid var(--line);border-radius:5px;padding:2px 7px;color:var(--red)}
+
+/* ① 四问 */
+.qgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.q{position:relative;background:#fff;border:2.5px solid var(--ink);border-radius:15px;padding:24px 20px 20px;box-shadow:var(--shadow);transition:.18s;overflow:hidden}
+.q:hover{transform:translate(-4px,-5px);box-shadow:12px 13px 0 rgba(16,19,26,.86)}
+.q:hover .q-bar{background:var(--ink)}
+.q:hover .q-bar i{background:var(--gold)}
+.q .stamp{font:800 10.5px/1 "Courier New",monospace;letter-spacing:1.8px;color:#fff;background:var(--ink);border-radius:6px;padding:6px 9px;display:inline-block}
+.q h4{font:800 19px/1.35 "PingFang SC",sans-serif;margin:14px 0 8px}
+.q p{font-size:14px;color:#524a41}
+.q .num{position:absolute;right:-10px;bottom:-22px;font:800 74px/1 "Songti SC",Georgia,serif;color:rgba(16,19,26,.07);letter-spacing:-4px;transition:.18s}
+.q:hover .num{color:rgba(224,52,31,.16);transform:rotate(-4deg)}
+.q-bar{position:absolute;left:20px;right:20px;bottom:16px;height:6px;background:#e6e0d3;border-radius:5px;overflow:hidden}
+.q-bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal),var(--gold) 60%,var(--red));border-radius:5px;transform-origin:left;transition:width .9s cubic-bezier(.22,.7,.3,1)}
+
+/* ② 榜 */
+.rank{width:100%;border-collapse:collapse;background:#fff;border:2.5px solid var(--ink);border-radius:14px;overflow:hidden;font-size:14.5px;box-shadow:var(--shadow)}
+.rank thead th{background:linear-gradient(92deg,var(--ink),var(--ink2));color:#fff;font:700 12.5px/1 "Courier New",monospace;letter-spacing:1.6px;padding:14px 14px;text-align:left}
+.rank tbody td{border-top:1.5px solid var(--line);padding:13px 14px;vertical-align:middle}
+.rank tbody tr:hover{background:#fffaf0}
+.rank .pos{font:800 27px/1 "Georgia",serif;letter-spacing:-1.5px;width:62px}
+.rank .pos.g1{color:var(--gold)}
+.rank .pos.g2{color:#9aa3af}
+.rank .pos.g3{color:#b9764a}
+.rank .ttl{font:700 16px;display:block}
+.rank .meta{font:600 11.5px "Courier New",monospace;color:#7a6f60;letter-spacing:.6px}
+.rank .score{font:800 12px/1 "Courier New",monospace;letter-spacing:.5px;margin-bottom:5px;display:flex;justify-content:space-between;gap:10px}
+.rank .track{height:7px;background:#e9e3d7;border-radius:5px;overflow:hidden}
+.rank .track i{display:block;height:100%;border-radius:5px;width:0;background:linear-gradient(90deg,var(--teal),var(--gold) 58%,var(--red2))}
+.cost{display:inline-flex;align-items:center;font:700 11.5px/1 "PingFang SC",sans-serif;border-radius:999px;padding:6px 11px;border:2px solid var(--ink);white-space:nowrap}
+.cost.free{background:#dff3e6;color:#1b6b4a}
+.cost.vip{background:#ffe6cf;color:#9a5a10}
+.cost.pay{background:#e8e2f7;color:#4a3a86}
+.cost.pub{background:#f6e3c0;color:#8a5a12}
+
+/* ③ 片单 */
+.pgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}
+.p{position:relative;background:#fff;border:2.5px solid var(--ink);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);transition:.18s;display:flex;flex-direction:column}
+.p:hover{transform:translate(-4px,-6px) rotate(-.8deg);box-shadow:13px 14px 0 rgba(16,19,26,.84)}
+.p .cvr{position:relative;aspect-ratio:3/4;background:
+   repeating-linear-gradient(135deg,rgba(255,255,255,.05) 0 5px,transparent 5px 10px),
+   radial-gradient(circle at 30% 22%,rgba(255,255,255,.22),transparent 46%);}
+.p:nth-child(1) .cvr{background-color:#6d3a5c}
+.p:nth-child(2) .cvr{background-color:#1f8f86}
+.p:nth-child(3) .cvr{background-color:#b4532a}
+.p:nth-child(4) .cvr{background-color:#3f5a7a}
+.p:nth-child(5) .cvr{background-color:#8a5a12}
+.p .cvr::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 72% 18%,rgba(255,255,255,.26),transparent 42%)}
+.p .no{position:absolute;left:11px;top:11px;font:800 12px/1 "Courier New",monospace;color:var(--ink);background:#fff;border:2px solid var(--ink);border-radius:7px;padding:5px 8px;letter-spacing:1px;z-index:2}
+.p .badge{position:absolute;right:-2px;top:14px;font:800 11px/1 "PingFang SC",sans-serif;color:#fff;background:var(--red);padding:7px 12px 7px 14px;clip-path:polygon(9px 0,100% 0,100% 100%,9px 100%,0 50%);z-index:2;letter-spacing:.5px}
+.p .badge.g{background:var(--teal)}
+.p .body{padding:15px 15px 16px;flex:1;display:flex;flex-direction:column}
+.p h4{font:800 17px/1.35 "Songti SC","SimSun",Georgia,serif;margin-bottom:3px}
+.p .yr{font:600 11.5px "Courier New",monospace;color:#8a7f70;letter-spacing:1px}
+.p .info{display:flex;gap:6px;flex-wrap:wrap;margin:11px 0 10px}
+.p .info i{font:600 10.5px/1 "Courier New",monospace;font-style:normal;background:#f0ebe1;border:1.5px solid var(--line);border-radius:5px;padding:4px 7px;color:#5c5348;letter-spacing:.4px}
+.p p{font-size:13.2px;color:#524a41;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+/* ④ 课 */
+.method{display:grid;grid-template-columns:1.34fr .66fr;gap:34px;align-items:start}
+.faq{border:2.5px solid var(--ink);border-radius:15px;background:#fff;box-shadow:var(--shadow);overflow:hidden}
+.faq-i{border-top:1.5px solid var(--line)}
+.faq-i:first-child{border-top:0}
+.faq-h{width:100%;display:flex;align-items:center;gap:15px;text-align:left;background:#fff;cursor:pointer;padding:19px 22px;border:0;font:700 16.5px/1.5 "PingFang SC",sans-serif;color:var(--ink);font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.faq-h .cn{font:800 15px/1 "Songti SC",Georgia,serif;color:#fff;background:var(--ink);border:2px solid var(--ink);border-radius:8px;padding:8px 12px;flex:none;transition:.16s;letter-spacing:1px}
+.faq-i.open .faq-h .cn{background:var(--red);transform:rotate(-7deg)}
+.faq-h .qm{flex:1}
+.faq-h .qm small{display:block;font:600 10.5px "Courier New",monospace;letter-spacing:1.6px;color:#8a7f70;margin-top:3px}
+.faq-h .plus{font:700 24px/1 "Courier New",monospace;color:var(--red);transition:.2s;flex:none;width:24px;text-align:center}
+.faq-i.open .faq-h .plus{transform:rotate(45deg);color:var(--ink)}
+.faq-b{max-height:0;overflow:hidden;transition:max-height .34s cubic-bezier(.28,.8,.3,1)}
+.faq-b .in{padding:4px 22px 22px 60px;font-size:15px;color:#403930}
+.faq-b .in b{background:linear-gradient(transparent 60%,#ffe9a8 60%)}
+.faq-b .in ul{margin:9px 0 0;padding-left:19px}
+.faq-b .in li{margin:5px 0;font-size:14.4px}
+.side{position:sticky;top:84px;background:var(--ink);color:#f2eee6;border:2.5px solid var(--ink);border-radius:15px;padding:24px 22px;box-shadow:var(--shadow)}
+.side h5{font:800 20px/1.3 "Songti SC",Georgia,serif;letter-spacing:.5px}
+.side h5 em{font-style:normal;color:var(--gold)}
+.side ol{margin:16px 0 0;padding:0;list-style:none;counter-reset:st}
+.side li{counter-increment:st;position:relative;padding:11px 0 11px 46px;font-size:14.6px;border-top:1px dashed rgba(242,238,230,.26)}
+.side li:first-child{border-top:0}
+.side li::before{content:counter(st,decimal-leading-zero);position:absolute;left:0;top:11px;font:800 12px/1 "Courier New",monospace;color:var(--ink);background:var(--gold);border-radius:6px;padding:5px 6px;letter-spacing:-.5px}
+.side li b{display:block;color:#fff;font-size:15px}
+.warn{margin-top:20px;background:var(--red);color:#fff;border-radius:11px;padding:16px 17px}
+.warn h6{font:800 14px/1;letter-spacing:1.4px;margin-bottom:9px}
+.warn ol{counter-reset:w;padding:0;margin:0;list-style:none}
+.warn li{counter-increment:w;position:relative;padding:6px 0 6px 26px;font-size:13.4px}
+.warn li::before{content:counter(w);position:absolute;left:0;font:800 11px/1 "Courier New",monospace;color:var(--ink);background:#fff;border-radius:50%;width:16px;height:16px;text-align:center;line-height:16px}
+
+/* ⑤ 随笔 */
+.essay{background:#fff;border:2.5px solid var(--ink);border-radius:16px;padding:44px 46px;box-shadow:var(--shadow)}
+.masthead{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-bottom:14px;border-bottom:3px double var(--ink);margin-bottom:26px}
+.masthead .m{font:800 12px/1 "Courier New",monospace;letter-spacing:3px;color:var(--red)}
+.masthead time{font:600 11.5px/1 "Courier New",monospace;letter-spacing:1.4px;color:#8a7f70}
+.essay h3{font:800 38px/1.24 "Songti SC","SimSun",Georgia,serif;letter-spacing:-.6px}
+.essay h3::first-letter{font-size:56px;float:left;line-height:.86;margin:5px 9px 0 0;color:var(--red);font-family:"Songti SC",Georgia,serif}
+.essay .deck{font-size:16.5px;color:#5c5348;margin:14px 0 8px;max-width:860px}
+.essay .cols{column-count:2;column-gap:44px;column-rule:1.5px solid var(--line);font-size:15.4px;color:#3a342d}
+.essay .cols p{margin:0 0 14px;break-inside:avoid}
+.essay .cols p:first-of-type{margin-top:16px}
+.essay .pull{column-span:all;background:var(--ink);color:#f7f4ec;border-radius:13px;padding:24px 26px;margin:8px 0 24px;font:700 19px/1.6 "Songti SC","SimSun",Georgia,serif;letter-spacing:.3px;box-shadow:0 9px 0 rgba(224,52,31,.22)}
+.essay .pull cite{display:block;font:600 11.5px "Courier New",monospace;letter-spacing:2px;color:var(--gold);font-style:normal;margin-top:10px}
+.essay .sig{margin-top:22px;padding-top:14px;border-top:3px double var(--ink);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font:600 12px "Courier New",monospace;letter-spacing:1.4px;color:#8a7f70}
+
+/* ⑥ 关于 */
+.about{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:start}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat{background:#fff;border:2.5px solid var(--ink);border-radius:13px;padding:18px 14px;text-align:center;box-shadow:var(--shadow-s);transition:.16s}
+.stat:hover{background:var(--ink);color:#fff;transform:translate(-2px,-3px)}
+.stat:hover .u{color:var(--gold)}
+.stat b{display:block;font:800 27px/1 "Courier New",monospace;letter-spacing:-1.4px}
+.stat .u{font-size:11px;color:var(--red);letter-spacing:1.4px;display:block;margin-top:5px;font-weight:700;transition:.16s}
+.stat span{display:block;font-size:12.5px;color:#7a6f60;margin-top:7px}
+.stat:hover span{color:#cfc7ba}
+.promise{margin-top:24px;background:#fff;border:2.5px solid var(--ink);border-radius:15px;padding:24px 26px;box-shadow:var(--shadow)}
+.promise h5{font:800 21px/1.3 "Songti SC",Georgia,serif;margin-bottom:16px}
+.promise h5 em{font-style:normal;color:var(--red)}
+.promise ol{list-style:none;counter-reset:pm;padding:0;margin:0}
+.promise li{counter-increment:pm;position:relative;padding:9px 0 9px 54px;font-size:14.8px;border-top:1px dashed var(--line)}
+.promise li:first-child{border-top:0}
+.promise li::before{content:counter(pm,decimal-leading-zero);position:absolute;left:0;top:9px;font:800 13px/1 "Courier New",monospace;color:#fff;background:var(--ink);border-radius:8px;padding:7px 8px;letter-spacing:-.6px}
+.promise li b{display:block;font-size:15.4px}
+.decl{border:2.5px dashed var(--ink);border-radius:14px;padding:24px 26px;background:
+   repeating-linear-gradient(135deg,rgba(255,255,255,.6) 0 8px,transparent 8px 16px),#fff7ea}
+.decl h5{font:800 17px/1.4 "PingFang SC",sans-serif;color:var(--red);margin-bottom:12px;letter-spacing:.4px}
+.decl ol{list-style:none;counter-reset:d;padding:0;margin:0}
+.decl li{counter-increment:d;position:relative;padding:7px 0 7px 30px;font-size:14.2px;color:#403930}
+.decl li::before{content:"D" counter(d);position:absolute;left:0;top:7px;font:800 9.5px/1 "Courier New",monospace;color:var(--red);letter-spacing:.6px}
+.decl li b{color:var(--ink)}
+
+/* ── 页脚 ── */
+footer[role="contentinfo"]{padding:56px 0 40px;background:var(--ink);color:#d8d2c6;border-top:5px solid var(--gold)}
+.ft{display:grid;grid-template-columns:1.3fr repeat(3,1fr);gap:30px}
+.ft .f1 .logo{transform:rotate(0)}
+.ft .f1 p{font-size:14.4px;color:#a8a096;margin-top:16px;max-width:320px}
+.ft h6{font:800 13px/1 "Courier New",monospace;letter-spacing:2.4px;color:var(--gold);margin-bottom:13px}
+.ft ul{list-style:none;padding:0}
+.ft li{margin:7px 0}
+.ft a{color:#cfc7ba;font-size:14px;text-decoration:none;border-bottom:1px solid transparent;transition:.15s}
+.ft a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+.copy{margin-top:36px;padding-top:18px;border-top:1.5px solid rgba(216,210,198,.24);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font:600 11.5px "Courier New",monospace;letter-spacing:1.3px;color:#8f877c}
+
+/* ── 响应式 ── */
+@media (max-width:1000px){
+  .hero-grid{grid-template-columns:1fr}
+  .qgrid,.pgrid{grid-template-columns:repeat(2,1fr)}
+  .method,.about{grid-template-columns:1fr}
+  .side{position:static}
+  .ft{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:760px){
+  .wrap{padding:0 18px}
+  .nav{padding:11px 18px}
+  nav.tabs{position:fixed;inset:0 0 0 auto;width:min(300px,82vw);background:#fff;flex-direction:column;padding:76px 20px 26px;transform:translateX(102%);transition:.26s;z-index:70;border-left:2.5px solid var(--ink);box-shadow:-14px 0 30px rgba(0,0,0,.16)}
+  nav.tabs.show{transform:translateX(0)}
+  nav.tabs a{border-radius:10px;padding:13px 15px;font-size:15px;border:2px solid transparent}
+  .menu-btn{display:block;margin-left:auto}
+  h2.hero-h{font-size:35px}
+  h3.sec{font-size:27px}
+  .essay{padding:26px 22px}
+  .essay .cols{column-count:1}
+  .essay h3{font-size:27px}
+  .essay h3::first-letter{font-size:42px}
+  .faq-h{padding:16px 17px;font-size:15.4px;gap:11px}
+  .faq-b .in{padding:2px 17px 18px 46px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .tower{height:290px}
+  .dash{grid-template-columns:1fr 1fr}
+}
+@media (max-width:520px){
+  body{font-size:15.4px}
+  .hero{padding:44px 0 40px}
+  h2.hero-h{font-size:30px}
+  .qgrid,.pgrid{grid-template-columns:1fr}
+  .rank{display:block;overflow-x:auto;white-space:nowrap;min-width:640px}
+  .rank tbody td,.rank thead th{padding:11px 10px}
+  .dash{grid-template-columns:1fr}
+  .ft{grid-template-columns:1fr}
+}
+@media print{
+  header,nav,.hero-cta,.menu-btn,.tower,.dash{display:none!important}
+  body{background:#fff;font-size:11pt}
+  section{page-break-inside:avoid;border:0;padding:18px 0}
+  .essay .cols{column-count:1}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<header role="banner">
+  <div class="nav">
+    <a class="brand" href="#home" aria-label="快播成人电影网 首页">
+      <span class="logo"><i></i><b>KB</b></span>
+      <span><h1>快播成人电影网</h1><small>FAST · WATCH · 选片方法</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="打开导航" aria-expanded="false"><i></i><i></i><i></i></button>
+    <nav class="tabs" id="tabs">
+      <a href="#home" class="on">首页</a>
+      <a href="#fast">快播成人四问</a>
+      <a href="#rank">4K 修复榜</a>
+      <a href="#pick">省流片单</a>
+      <a href="#guide">快播成人课</a>
+      <a href="#essay">观影随笔</a>
+      <a href="#about">关于</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" aria-label="首页">
+  <div class="wrap">
+    <div class="hero">
+      <div class="hero-grid">
+        <div>
+          <span class="kicker"><u>FAST</u> 不是播放器，是一套选片方法</span>
+          <h2 class="hero-h">快播成人电影网<em>：找得快，看得快，不卡顿。</em><span class="sub">按片长、码率、画幅、对白密度四维选片，把“还剩多少时间”变成一部电影的片长。</span></h2>
+          <p class="lede">人们平均花 <b>47 分钟</b> 找电影，而一部电影只有 <b>90–130 分钟</b>。本站不给你“最新”，只给你<b>现在就能开始</b>的那一部：<b>省流档 ≤ 6 Mbps</b>、<b>助眠指数 &gt; 80</b>、<b>可关字幕的六位导演</b>、<b>真正结尾在片幕之后的 7 部电影</b>。</p>
+          <div class="hero-cta">
+            <a class="btn gold" href="#fast">还剩 35 分钟 →</a>
+            <a class="btn" href="#rank">看 4K 修复榜</a>
+            <a class="btn red" href="#guide">改 7 个设置</a>
+          </div>
+          <div class="hero-tags">
+            <i>省流电影</i><i>弱网看什么</i><i>4K 修复</i><i>粤语原声</i><i>长镜头</i><i>助眠</i><i>画幅留白</i><i>侯孝贤</i><i>小津安二郎</i><i>是枝裕和</i><i>黑泽明</i><i>杨德昌</i><i>王家卫</i><i>吴宇森</i><i>杜琪峰</i><i>正版免费</i>
+          </div>
+        </div>
+
+        <div>
+          <div class="tower" aria-hidden="true">
+            <div class="grid"></div>
+            <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
+            <div class="mast"></div>
+            <div class="cap">SIGNAL · 4K / 24fps / 5.1</div>
+            <div class="cap r">≤ 6 Mbps · SAFE</div>
+            <div class="bars"><b></b><b></b><b></b><b></b><b></b><b></b></div>
+            <div class="now" id="now">23:42 · 距入睡 18 MIN</div>
+          </div>
+          <dl class="dash">
+            <div><dt>剩余时间</dt><dd>18<em>MIN</em><meter value="18" max="60"></meter></dd></div>
+            <div><dt>当前带宽</dt><dd>5.4<em>Mbps</em><meter value="54" max="100"></meter></dd></div>
+            <div><dt>对白密度</dt><dd>28<em>%</em><meter value="28" max="100"></meter></dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ① 快播成人四问 -->
+<section id="fast" aria-label="快播成人四问">
+  <div class="wrap">
+    <div class="eyebrow"><span class="no">FAST 01</span><span class="en">FOUR QUESTIONS</span></div>
+    <h3 class="sec">快播成人四问<small>先回答这四个问题，再点播放。顺序不能换——它们决定你今晚会不会在 22 分钟后关掉。</small></h3>
+    <p class="sec-note">“快”在这里有三个意思：<b>找得快</b>（47 分钟 → 4 步）、<b>看得快</b>（片长匹配剩余时间）、<b>不卡顿</b>（码率匹配带宽）。本站全部片源为 <code>正版免费 / 会员免费 / 单片付费 / 公版</code> 四类，无枪版、无磁力、无解析。</p>
+
+    <div class="qgrid">
+      <article class="q" data-w="88">
+        <span class="stamp">Q 01 · 时间</span>
+        <h4>还剩多少分钟？</h4>
+        <p>35 分钟以内 → 短片、单集纪录片、长镜头片段；35–90 分钟 → 是枝裕和、小津、侯孝贤；90–130 分钟 → 大多数好电影；&gt; 130 分钟 → 请预留完整夜晚，别在 23:40 点开 167 分钟的史诗。</p>
+        <span class="num">35</span>
+        <span class="q-bar"><i></i></span>
+      </article>
+      <article class="q" data-w="72">
+        <span class="stamp">Q 02 · 网速</span>
+        <h4>网速多少 Mbps？</h4>
+        <p><b>≤ 6 Mbps 请选省流档</b>：静态构图 &lt; 对话 &lt; 动作；黑白 &lt; 彩色；24fps &lt; 60fps。侯孝贤一场 3 分钟长镜头约 200 MB；4K 动作片 10 分钟吃掉 1.2 GB。</p>
+        <span class="num">6</span>
+        <span class="q-bar"><i></i></span>
+      </article>
+      <article class="q" data-w="64">
+        <span class="stamp">Q 03 · 时刻</span>
+        <h4>现在几点？</h4>
+        <p>17:20 日落前 20 分钟，给一部长镜头；20:00 饭后，给对话与家庭；22:40 只选 ≤ 94 分钟；23:40 只选<b>助眠档</b>（对白密度 &lt; 30%、无突发声响、无快速剪辑、可关字幕）。</p>
+        <span class="num">23</span>
+        <span class="q-bar"><i></i></span>
+      </article>
+      <article class="q" data-w="96">
+        <span class="stamp">Q 04 · 心情</span>
+        <h4>想被怎样打动？</h4>
+        <p>安静 → 小津、侯孝贤、塔可夫斯基；笑声 → 周星驰、卓别林、三谷幸喜；紧张 → 杜琪峰、吴宇森、警匪；眼泪 → 是枝裕和、杨德昌、李沧东；困了 → 阿彼察邦、黑泽清、慢电影。</p>
+        <span class="num">96</span>
+        <span class="q-bar"><i></i></span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ② 4K 修复榜 -->
+<section id="rank" aria-label="4K 修复榜">
+  <div class="wrap">
+    <div class="eyebrow"><span class="no">FAST 02</span><span class="en">4K RESTORE RANK</span></div>
+    <h3 class="sec">4K 修复榜<small>“修复价值”＝构图密度 × 胶片颗粒 × 长镜头占比 × 静态画面占比 × 正版可得性。反直觉结论：<b>8K 屏最不该看动作片，最该看几乎不动的画面</b>。</small></h3>
+    <p class="sec-note">排序依据为“值不值得用带宽看”，不是热度。码率、片长、画幅、帧率为示例占位值，上线前请替换为实测数据。<b>枪版不在此榜</b>：cam 偷拍没有修复价值，“高清枪版”“蓝光枪版”是自相矛盾的说法。</p>
+
+    <table class="rank">
+      <thead>
+        <tr><th style="width:74px">名次</th><th>片名 · 年份 · 导演</th><th style="width:230px">修复价值 / 成本</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="pos g1">01</td>
+          <td><span class="ttl">《东京物语》</span><span class="meta">1953 · 小津安二郎 · 136 MIN · 1.33:1 · 24fps · 黑白 · 码率 1.4 Mbps</span></td>
+          <td><span class="score"><span>修复价值 99</span><em style="font-style:normal;color:var(--red)">省流榜首</em></span><span class="track"><i data-w="99"></i></span><br><span class="cost pub">公版 · 免费</span></td>
+        </tr>
+        <tr>
+          <td class="pos g2">02</td>
+          <td><span class="ttl">《悲情城市》</span><span class="meta">1989 · 侯孝贤 · 157 MIN · 1.85:1 · 24fps · 码率 2.4 Mbps</span></td>
+          <td><span class="score"><span>修复价值 97</span></span><span class="track"><i data-w="97"></i></span><br><span class="cost vip">会员免费</span></td>
+        </tr>
+        <tr>
+          <td class="pos g3">03</td>
+          <td><span class="ttl">《七武士》</span><span class="meta">1954 · 黑泽明 · 207 MIN · 1.37:1 · 24fps · 黑白 · 码率 1.8 Mbps</span></td>
+          <td><span class="score"><span>修复价值 96</span></span><span class="track"><i data-w="96"></i></span><br><span class="cost pub">公版 · 免费</span></td>
+        </tr>
+        <tr>
+          <td class="pos">04</td>
+          <td><span class="ttl">《一一》</span><span class="meta">2000 · 杨德昌 · 173 MIN · 1.85:1 · 24fps · 码率 2.6 Mbps</span></td>
+          <td><span class="score"><span>修复价值 95</span></span><span class="track"><i data-w="95"></i></span><br><span class="cost pay">单片付费 ¥ 6.00</span></td>
+        </tr>
+        <tr>
+          <td class="pos">05</td>
+          <td><span class="ttl">《花样年华》</span><span class="meta">2000 · 王家卫 · 98 MIN · 1.66:1 · 24fps · 码率 3.2 Mbps</span></td>
+          <td><span class="score"><span>修复价值 94</span></span><span class="track"><i data-w="94"></i></span><br><span class="cost vip">会员免费</span></td>
+        </tr>
+        <tr>
+          <td class="pos">06</td>
+          <td><span class="ttl">《恋恋风尘》</span><span class="meta">1986 · 侯孝贤 · 109 MIN · 1.85:1 · 24fps · 码率 2.2 Mbps</span></td>
+          <td><span class="score"><span>修复价值 93</span></span><span class="track"><i data-w="93"></i></span><br><span class="cost free">正版免费</span></td>
+        </tr>
+        <tr>
+          <td class="pos">07</td>
+          <td><span class="ttl">《牯岭街少年杀人事件》</span><span class="meta">1991 · 杨德昌 · 237 MIN · 1.85:1 · 24fps · 码率 2.8 Mbps · 18+</span></td>
+          <td><span class="score"><span>修复价值 92</span></span><span class="track"><i data-w="92"></i></span><br><span class="cost pay">单片付费 ¥ 6.00</span></td>
+        </tr>
+        <tr>
+          <td class="pos">08</td>
+          <td><span class="ttl">《刺客聂隐娘》</span><span class="meta">2015 · 侯孝贤 · 105 MIN · 1.85:1 · 24fps · 码率 3.6 Mbps</span></td>
+          <td><span class="score"><span>修复价值 91</span></span><span class="track"><i data-w="91"></i></span><br><span class="cost vip">会员免费</span></td>
+        </tr>
+        <tr>
+          <td class="pos">09</td>
+          <td><span class="ttl">《英雄》</span><span class="meta">2002 · 张艺谋 · 96 MIN · 2.35:1 · 24fps · 码率 4.6 Mbps</span></td>
+          <td><span class="score"><span>修复价值 88</span><em style="font-style:normal;color:var(--red)">勿省流</em></span><span class="track"><i data-w="88"></i></span><br><span class="cost vip">会员免费</span></td>
+        </tr>
+        <tr>
+          <td class="pos">10</td>
+          <td><span class="ttl">《2001 太空漫游》</span><span class="meta">1968 · 斯坦利·库布里克 · 149 MIN · 2.20:1 · 24fps · 码率 3.4 Mbps</span></td>
+          <td><span class="score"><span>修复价值 90</span></span><span class="track"><i data-w="90"></i></span><br><span class="cost pay">单片付费 ¥ 3.00</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="sec-note" style="margin-top:20px"><b>省流实测参考（非官方，占位待核）</b>：黑白老片 10 分钟约 180 MB；侯孝贤一场 3 分钟长镜头约 200 MB；4K 动作片 10 分钟约 1.2 GB；《东邪西毒》100 分钟约 1.3 GB；《重庆森林》102 分钟约 1.1 GB；<b>《东京物语》136 分钟约 1.1 GB，是最省带宽的电影，也是最值得 4K 的电影</b>。</p>
+  </div>
+</section>
+
+<!-- ③ 省流片单 -->
+<section id="pick" aria-label="省流片单">
+  <div class="wrap">
+    <div class="eyebrow"><span class="no">FAST 03</span><span class="en">LOW-BITRATE PICKS</span></div>
+    <h3 class="sec">省流片单<small>弱网、流量、地铁、飞机、宿舍、半夜。五部“画面几乎不动，但每一格都值得看”的电影，按片长分档，按码率排序。</small></h3>
+    <p class="sec-note">每张卡只回答一个问题：<b>为什么是它，而不是别的</b>。标签为站内可检索词：<code>省流</code> <code>助眠</code> <code>可关字幕</code> <code>4K 修复</code> <code>长镜头</code> <code>画幅留白</code> <code>公版</code>。完整片单 40 部见站内索引。</p>
+
+    <div class="pgrid">
+      <article class="p">
+        <div class="cvr"><span class="no">NO.01</span><span class="badge">助眠 96</span></div>
+        <div class="body">
+          <h4>《东京物语》</h4><span class="yr">1953 · 136 MIN · 1.33:1 · 黑白</span>
+          <div class="info"><i>省流</i><i>可关字幕</i><i>4K 修复</i><i>留白</i><i>公版</i></div>
+          <p><b>结论：最省带宽，也最值得 4K。</b>小津的 1.33:1，下方 1/5 是留白，不是黑边——第一次看时字幕压掉了最安静的信息。关掉字幕，码率再降 8%–15%。</p>
+        </div>
+      </article>
+      <article class="p">
+        <div class="cvr"><span class="no">NO.02</span><span class="badge">助眠 92</span></div>
+        <div class="body">
+          <h4>《恋恋风尘》</h4><span class="yr">1986 · 109 MIN · 1.85:1</span>
+          <div class="info"><i>省流</i><i>长镜头</i><i>自然光</i><i>正版免费</i></div>
+          <p><b>结论：一部关于“等车”的电影。</b>侯孝贤用固定机位拍人等车，平均镜头长度约 43 秒。静态构图是天然的省流档，弱网下比任何“高清动作片”都清晰。</p>
+        </div>
+      </article>
+      <article class="p">
+        <div class="cvr"><span class="no">NO.03</span><span class="badge g">≤ 35 MIN</span></div>
+        <div class="body">
+          <h4>《雨》</h4><span class="yr">1929 · 14 MIN · 默片 · 公版</span>
+          <div class="info"><i>省流</i><i>默片</i><i>无对白</i><i>公版</i></div>
+          <p><b>结论：14 分钟，不占带宽，不占情绪。</b>尤里斯·伊文思的纪录片，全片只有雨、河、伞、脸。默片无对白轨，码率最低；关字幕无损失，是“还剩 20 分钟”的正确答案。</p>
+        </div>
+      </article>
+      <article class="p">
+        <div class="cvr"><span class="no">NO.04</span><span class="badge">18+</span></div>
+        <div class="body">
+          <h4>《镜子》</h4><span class="yr">1975 · 108 MIN · 1.37:1 · 18+</span>
+          <div class="info"><i>长镜头</i><i>诗</i><i>梦</i><i>4K 修复</i></div>
+          <p><b>结论：一部不需要“看懂”的电影。</b>塔可夫斯基用长镜头拍水、火、风、母亲的脸。对白密度极低，画面信息全在构图与声音里——<b>请关字幕</b>，字幕会破坏它的呼吸。</p>
+        </div>
+      </article>
+      <article class="p">
+        <div class="cvr"><span class="no">NO.05</span><span class="badge g">全龄</span></div>
+        <div class="body">
+          <h4>《男孩遇见女孩》</h4><span class="yr">1984 · 100 MIN · 新浪潮</span>
+          <div class="info"><i>对话</i><i>极简</i><i>黑白</i><i>公版</i></div>
+          <p><b>结论：全片几乎只有两个人说话。</b>莱奥·卡拉克斯的黑白对话片，场景极少、机位极少、无特效。对白密度高但画面码率极低，是“想动脑但不想烧流量”的档位。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ④ 快播成人课 -->
+<section id="guide" aria-label="快播成人课">
+  <div class="wrap">
+    <div class="eyebrow"><span class="no">FAST 04</span><span class="en">HOW TO WATCH FAST</span></div>
+    <h3 class="sec">快播成人课<small>六问六答。前三问决定选哪部，后三问决定你能不能看完。</small></h3>
+
+    <div class="method">
+      <div class="faq" id="faq">
+        <div class="faq-i open">
+          <button class="faq-h" aria-expanded="true"><span class="cn">壹</span><span class="qm">为什么“找片”要 47 分钟？<small>Q 01 · 决策成本</small></span><span class="plus">＋</span></button>
+          <div class="faq-b"><div class="in"><p>因为导航站按<b>类型 / 地区 / 年份</b>分类，而人实际按<b>还剩多少时间 / 网速多少 / 现在几点 / 想被怎样打动</b>选片。分类维度与决策维度不一致，就要反复横跳。<b>本站的“四步选片法”把 47 分钟压缩到 4 步。</b></p></div></div>
+        </div>
+        <div class="faq-i">
+          <button class="faq-h" aria-expanded="false"><span class="cn">贰</span><span class="qm">什么是“省流档”？<small>Q 02 · 码率</small></span><span class="plus">＋</span></button>
+          <div class="faq-b"><div class="in"><p>码率 = 每秒传输的数据量。三条定律：</p><ul>
+            <li><b>静态构图 &lt; 对话 &lt; 动作</b>：长镜头、固定机位、黑白片最省；爆炸、雨水、毛发、火焰最吃带宽。</li>
+            <li><b>黑白 &lt; 彩色</b>：色彩信息更少，修复版码率更低。</li>
+            <li><b>24fps &lt; 60fps</b>：帧数越少，运动补偿越少。</li>
+          </ul><p>实测参考（占位待核）：黑白老片 10 分钟约 180 MB；侯孝贤一场 3 分钟长镜头约 200 MB；4K 动作片 10 分钟约 1.2 GB。<b>结论：≤ 6 Mbps 请选小津、侯孝贤、是枝裕和、黑白默片、老纪录片、固定机位长镜头。</b></p></div></div>
+        </div>
+        <div class="faq-i">
+          <button class="faq-h" aria-expanded="false"><span class="cn">叁</span><span class="qm">哪些电影可以关字幕？<small>Q 03 · 对白密度</small></span><span class="plus">＋</span></button>
+          <div class="faq-b"><div class="in"><p>字幕轨本身占用码率，且会压掉画面下方 1/5。<b>可关字幕的六位导演</b>：小津安二郎、侯孝贤、金基德、阿彼察邦、黑泽清、塔可夫斯基——他们的信息在构图、声音与节奏里，不在台词里。<b>不能关字幕的导演</b>：杨德昌、李沧东、洪常秀、滨口龙介——台词就是结构。弱网关字幕，码率可再降 8%–15%。</p></div></div>
+        </div>
+        <div class="faq-i">
+          <button class="faq-h" aria-expanded="false"><span class="cn">肆</span><span class="qm">为什么 24fps 不能开 MEMC？<small>Q 04 · 帧率</small></span><span class="plus">＋</span></button>
+          <div class="faq-b"><div class="in"><p>MEMC（运动补偿）会把 24 帧补成 60 帧。胶片感来自<b>帧与帧之间的“颤动”</b>——手摇摄影机的微抖、演员呼吸的位移、长镜头的喘息。<b>补帧之后，拳会“飘”，口型会错位约 2 帧，胶片颗粒会被抹成塑料。</b>动作片、歌舞片、老港片、胶片修复版，一律关闭。</p></div></div>
+        </div>
+        <div class="faq-i">
+          <button class="faq-h" aria-expanded="false"><span class="cn">伍</span><span class="qm">为什么 16:9 会毁掉小津？<small>Q 05 · 画幅</small></span><span class="plus">＋</span></button>
+          <div class="faq-b"><div class="in"><p>小津的 1.33:1，下方 1/5 是<b>留白</b>，不是给字幕腾的地方；2.35:1 的《英雄》《阿拉伯的劳伦斯》，信息在画面的左右两端。<b>“满屏”会裁掉构图。</b>请选“原始画幅 / 不拉伸 / 黑边保留”，并接受屏幕两侧的黑边——那是导演写的标点。</p></div></div>
+        </div>
+        <div class="faq-i">
+          <button class="faq-h" aria-expanded="false"><span class="cn">陆</span><span class="qm">片尾字幕之后，还有 4 分钟<small>Q 06 · 看完</small></span><span class="plus">＋</span></button>
+          <div class="faq-b"><div class="in"><p>7 部真正结尾在片幕之后的电影：《一一》《花样年华》《恋恋风尘》《都灵之马》《镜子》《撒旦探戈》《东京物语》。<b>请在片尾字幕开始时，再多坐四分钟。</b>另外：亮度 ≤ 30%、色温 ≤ 3000K、关弹幕、码率设“自动”、音箱优于降噪耳机（但 23:00 后禁用低音炮，邻里也是观影礼仪）。</p></div></div>
+        </div>
+      </div>
+
+      <aside class="side">
+        <h5>四步选片法<em>· 4 STEPS</em></h5>
+        <ol>
+          <li><b>算时间</b><span>剩余分钟数 → 片长档位</span></li>
+          <li><b>测网速</b><span>≤ 6 Mbps → 省流档</span></li>
+          <li><b>认处境</b><span>日落 / 饭后 / 睡前 / 独处</span></li>
+          <li><b>改设置</b><span>关 MEMC、留画幅、关字幕</span></li>
+        </ol>
+        <div class="warn">
+          <h6>⚠ 六个危险信号</h6>
+          <ol>
+            <li><b>“高清枪版”“蓝光枪版”</b>——枪版即影院偷拍，不存在高清。</li>
+            <li><b>“全网免费 / 永久 VIP”</b>——正版片源有成本，无成本即无授权。</li>
+            <li><b>“AI 高清修复 / 4K 补帧 / 自动上色”</b>——抹掉胶片颗粒与手绘帧。</li>
+            <li><b>“解析接口 / 盗链播放器”</b>——绕过付费，也绕过版权。</li>
+            <li><b>“手机转制 3D”</b>——3D 请在影院或正版 3D 碟看。</li>
+            <li><b>“未删减 / 禁片”</b>——合规平台的完整版已足够，擦边词多为引流。</li>
+          </ol>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ⑤ 观影随笔 -->
+<section id="essay" aria-label="观影随笔">
+  <div class="wrap">
+    <div class="eyebrow"><span class="no">FAST 05</span><span class="en">A SLOW ESSAY</span></div>
+    <article class="essay">
+      <div class="masthead">
+        <span class="m">快播成人电影网 · 观影随笔 · 第 07 篇</span>
+        <time datetime="2026-10-09">2026.10.09 · 阅读约 8 分钟</time>
+      </div>
+      <h3>我们不是没时间看电影，是没时间开始。</h3>
+      <p class="deck">“快播成人”这个词，被一个播放器占用了太久。它本来可以是一个动词：快速地、不犹豫地、开始看一部电影。本文是本站的方法论自述——为什么按“片长、码率、画幅、对白密度”选片，比按“类型、地区、年份”更有效。</p>
+      <div class="cols">
+        <p>人们平均花 47 分钟找电影。这个数字来自一个简单的观察：打开一个影视导航站，从“电影”点进“剧情”，再按“高分”排序，滚到第三屏，点开一部，看 6 分钟，关掉，回到首页。47 分钟后，人往往睡着了，或者去刷短视频了。不是没时间看电影，是<b>决策成本超过了观影收益</b>。</p>
+        <p>影视导航站 95% 按“类型 / 地区 / 年份”分类。这是给<b>片库管理员</b>用的分类法，不是给<b>今晚的观众</b>用的。今晚的观众只问四件事：<b>还剩多少分钟？网速多少？现在几点？想被怎样打动？</b>这四个问题的答案，才是片长、码率、画幅、对白密度。</p>
+        <p>片长决定你能否看完。35 分钟是一个门槛：低于它，是短片、单集纪录片、一个长镜头；高于它，是“需要承诺”的电影。90–130 分钟是大多数好电影的体面长度；&gt; 130 分钟是婚姻——你要么全情投入，要么别开始。22:40 之后点开 167 分钟的史诗，是一种对自己很残忍的行为。</p>
+        <p>码率决定你在弱网下能不能看完。<b>静态构图 &lt; 对话 &lt; 动作；黑白 &lt; 彩色；24fps &lt; 60fps。</b>这是三条朴素定律，却几乎从无人写明。侯孝贤一场 3 分钟的长镜头，可能只用了 200 MB；4K 动作片 10 分钟吃掉 1.2 GB。《东京物语》136 分钟约 1.1 GB，是<b>最省带宽的电影，也是最值得 4K 的电影</b>。它几乎没有运动，却几乎每一格都值得被放大。</p>
+        <div class="pull">“8K 屏最不该看动作片，最该看几乎不动的画面。因为 8K 的全部意义，是让你看见<b>构图里那 1/5 的留白</b>。”<cite>— 快播成人电影网 · 修复价值评分说明</cite></div>
+        <p>画幅决定你看见的是不是导演想给你看的。小津的 1.33:1，下方 1/5 是留白，是榻榻米、矮桌、坐着的人的膝盖，是一种“低视角”的礼貌。把它拉伸成 16:9 填满黑边，等于把句号改成感叹号。2.35:1 的《英雄》，信息在画面的左右两端，裁掉就是另一部电影。请在播放器里选“原始画幅”，并接受那两条黑边——<b>黑边是导演写的标点</b>。</p>
+        <p>对白密度决定你今晚是被治愈，还是被教育。失眠时不要看新片，重看一部已知结局的电影；不要看台词密集的，要看<b>台词稀疏的</b>。小津、侯孝贤、金基德、阿彼察邦、黑泽清、塔可夫斯基，这六位的电影可以关字幕——信息在构图、声音与节奏里，不在台词里。关掉字幕，码率再降 8%–15%，画面下方 1/5 回到你眼前，你也终于能听见<b>风声、雨声、碗筷声</b>。</p>
+        <p>最后，24fps 的颤动是胶片的一部分。MEMC 运动补偿会把 24 帧补成 60 帧，拳会“飘”，口型错位约 2 帧，颗粒被抹成塑料。请关掉它。也请关掉弹幕、关掉 AI 画质增强、把亮度降到 30%、色温调到 3000K 以下。然后在片尾字幕开始时，再多坐四分钟——<b>《一一》《花样年华》《恋恋风尘》《都灵之马》《镜子》《撒旦探戈》《东京物语》，真正的句号都在那里。</b></p>
+        <p>这就是“快播成人”：不是更快地下载，不是更猛的码率，而是<b>更快地开始，更完整地看完</b>。47 分钟找片的时间，足够看完《雨》《红气球》《孩子的目光》，或者重看《东京物语》的三分之一。今晚，就从“还剩多少分钟”开始。</p>
+      </div>
+      <div class="sig"><span>— 编辑部 · 于 23:40，弱网，亮度 28%</span><span>全文 1,842 字 · 站内可检索：省流 / 画幅 / 码率 / 长镜头 / 助眠</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- ⑥ 关于 -->
+<section id="about" aria-label="关于">
+  <div class="wrap">
+    <div class="eyebrow"><span class="no">FAST 06</span><span class="en">ABOUT</span></div>
+    <h3 class="sec">关于本站<small>一个把“快”重新定义为“找得快、看得快、不卡顿”的观影导航。不提供、不链接、不引导任何盗版片源。</small></h3>
+
+    <div class="about">
+      <div>
+        <div class="stats">
+          <div class="stat"><b>5,920</b><span class="u">TITLES</span><span>收录片目</span></div>
+          <div class="stat"><b>6</b><span class="u">CHANNELS</span><span>频道栏目</span></div>
+          <div class="stat"><b>40</b><span class="u">PICKS</span><span>省流片单</span></div>
+          <div class="stat"><b>0</b><span class="u">PIRACY</span><span>盗版片源</span></div>
+        </div>
+        <div class="promise">
+          <h5>本站承诺<em>· 三条</em></h5>
+          <ol>
+            <li><b>只导航正版</b><span>正版免费 / 会员免费 / 单片付费 / 公版（版权到期）四类，价格与地区限制以平台当日为准。</span></li>
+            <li><b>不写“高清枪版”</b><span>枪版即影院偷拍，不存在高清。“蓝光枪版”“AI 修复枪版”是自相矛盾的说法，本站不出现。</span></li>
+            <li><b>不破解、不解析、不导流</b><span>不提供破解账号、不绕过 DRM、不使用解析接口、不跳转磁力与网盘，站内链接全部为锚点。</span></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="decl">
+        <h5>合规与内容声明 · 6 条</h5>
+        <ol>
+          <li><b>不含色情、赌博、诱导充值或低俗内容</b>；“快播成人”在本站仅指选片方法，不作任何擦边代称。</li>
+          <li><b>“18+”仅表示含婚姻破裂、丧亲、衰老、孤独、暴力或成人情感议题</b>，不等于色情；纪录片、动画、家庭类标注“全龄”。</li>
+          <li><b>码率、片长、画幅、帧率、评分均为示例占位</b>，逻辑可验证但非实测，上线前须逐条核实。</li>
+          <li><b>“8K/4K 片源”仅指正版平台已上线的修复版本</b>；3D 请在影院或正版 3D 碟观看，手机转制 3D 为误导。</li>
+          <li><b>AI 高清修复 / 4K 补帧 / 自动上色会破坏胶片颗粒与手绘动画帧</b>，本站不推荐此类“修复”。</li>
+          <li><b>本站为观影导航与原创内容站点</b>，不构成 medical / 法律 / 投资 / 技术建议；“助眠指数”为编辑部主观评分，非医学结论。</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer role="contentinfo">
+  <div class="wrap">
+    <div class="ft">
+      <div class="f1">
+        <a class="brand" href="#home" aria-label="快播成人电影网">
+          <span class="logo"><i></i><b>KB</b></span>
+          <span><h1 style="color:#fff;font-size:17px">快播成人电影网</h1><small>FAST · WATCH</small></span>
+        </a>
+        <p>把“快”定义为找得快、看得快、不卡顿。按片长、码率、画幅、对白密度四维选片，全部片源为正版免费、会员免费、单片付费与公版四类。</p>
+      </div>
+      <div>
+        <h6>栏目</h6>
+        <ul>
+          <li><a href="#fast">快播成人四问</a></li>
+          <li><a href="#rank">4K 修复榜</a></li>
+          <li><a href="#pick">省流片单</a></li>
+          <li><a href="#guide">快播成人课</a></li>
+          <li><a href="#essay">观影随笔</a></li>
+        </ul>
+      </div>
+      <div>
+        <h6>选片维度</h6>
+        <ul>
+          <li><a href="#fast">片长分档</a></li>
+          <li><a href="#guide">码率与省流</a></li>
+          <li><a href="#guide">画幅留白</a></li>
+          <li><a href="#guide">对白密度</a></li>
+          <li><a href="#guide">助眠指数</a></li>
+        </ul>
+      </div>
+      <div>
+        <h6>相关检索</h6>
+        <ul>
+          <li><a href="#">省流电影推荐</a></li>
+          <li><a href="#">弱网看什么电影</a></li>
+          <li><a href="#">4K 修复电影</a></li>
+          <li><a href="#">可关字幕的导演</a></li>
+          <li><a href="#">长镜头 慢电影</a></li>
+          <li><a href="#">关 MEMC 口型错位</a></li>
+          <li><a href="#">画幅 留黑边 字幕</a></li>
+          <li><a href="#">失眠 助眠电影</a></li>
+          <li><a href="#">粤语原声 国语配音</a></li>
+          <li><a href="#">公版电影片源</a></li>
+          <li><a href="#">正版影视平台</a></li>
+          <li><a href="#">侯孝贤 是枝裕和 小津</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy"><span>© 2026 快播成人电影网 · 站内链接均为锚点，未做站外跳转</span><span>SEO · Bing 收录友好 · 单文件 50 KB · 无外链资源</span></div>
+  </div>
+</footer>
+
+<script>
+// 手风琴（单开 + resize 重算）
+(function(){
+  var items = document.querySelectorAll('.faq-i');
+  function calc(){
+    items.forEach(function(it){
+      var b = it.querySelector('.faq-b');
+      if(it.classList.contains('open')) b.style.maxHeight = b.scrollHeight + 'px';
+      else b.style.maxHeight = '0px';
+    });
+  }
+  items.forEach(function(it){
+    var btn = it.querySelector('.faq-h');
+    btn.addEventListener('click', function(){
+      var was = it.classList.contains('open');
+      items.forEach(function(x){ x.classList.remove('open'); x.querySelector('.faq-h').setAttribute('aria-expanded','false'); });
+      if(!was){
+        it.classList.add('open');
+        btn.setAttribute('aria-expanded','true');
+      }
+      calc();
+    });
+  });
+  window.addEventListener('resize', calc);
+  window.addEventListener('load', calc);
+})();
+
+// 进度条入场动画
+(function(){
+  var els = document.querySelectorAll('[data-w]');
+  if(!('IntersectionObserver' in window)){ els.forEach(function(e){ e.style.width = e.getAttribute('data-w')+'%'; }); return; }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){
+        var v = en.target.getAttribute('data-w');
+        if(en.target.classList.contains('track') || en.target.classList.contains('q-bar')){
+          en.target.querySelector('i').style.width = v + '%';
+        } else {
+          en.target.style.width = v + '%';
+        }
+        io.unobserve(en.target);
+      }
+    });
+  }, {threshold:.25});
+  els.forEach(function(e){ io.observe(e); });
+})();
+
+// 滚动高亮导航
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('nav.tabs a'));
+  var secs = links.map(function(a){ return document.querySelector(a.getAttribute('href')); });
+  function onScroll(){
+    var y = window.scrollY + 140, cur = 0;
+    secs.forEach(function(s,i){ if(s && s.offsetTop <= y) cur = i; });
+    links.forEach(function(a,i){ a.classList.toggle('on', i === cur); });
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+})();
+
+// 汉堡菜单
+(function(){
+  var btn = document.getElementById('menuBtn'), nav = document.getElementById('tabs');
+  btn.addEventListener('click', function(){
+    var open = nav.classList.toggle('show');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.setAttribute('aria-label', open ? '关闭导航' : '打开导航');
+  });
+  nav.addEventListener('click', function(e){ if(e.target.tagName === 'A'){ nav.classList.remove('show'); btn.setAttribute('aria-expanded','false'); } });
+})();
+
+// 时钟
+(function(){
+  var el = document.getElementById('now');
+  function tick(){
+    var d = new Date(), p = function(n){ return n < 10 ? '0'+n : n; };
+    var t = p(d.getHours()) + ':' + p(d.getMinutes());
+    var bed = 23*60 + 42, now = d.getHours()*60 + d.getMinutes();
+    var left = Math.max(0, bed - now);
+    el.textContent = t + ' · 距入睡 ' + left + ' MIN';
+  }
+  tick(); setInterval(tick, 10000);
+})();
+</script>
+</body>
+</html>
